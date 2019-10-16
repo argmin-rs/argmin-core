@@ -33,7 +33,7 @@ rand = "0.7.2"
 modcholesky = "0.1.1"
 finitediff = "0.1.1"
 ndarray = { version = "0.12.1", optional = true, features = ["serde-1"] }
-ndarray-linalg = { version = "0.11.1", optional = true }
+ndarray-linalg = { version = "0.12.0", optional = true }
 ndarray-rand = {version = "0.11.0", optional = true }
 num = { version = "0.2" }
 paste = "0.1.5"
@@ -46,7 +46,7 @@ ndarrayl = ["ndarray", "ndarray-linalg", "ndarray-rand", "finitediff/ndarray"]
 visualizer = ["gnuplot"]
 
 [dev-dependencies]
-ndarray-linalg = { version = "0.11.1", features = ["openblas"] }
+ndarray-linalg = { version = "0.12.0", features = ["openblas"] }
 
 [badges]
 travis-ci = { repository = "argmin-rs/argmin-core", branch = "master" }
