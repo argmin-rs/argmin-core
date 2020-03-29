@@ -1,6 +1,10 @@
 [![Build Status](https://travis-ci.org/argmin-rs/argmin-core.svg?branch=master)](https://travis-ci.org/argmin-rs/argmin-core)
 [![Gitter chat](https://badges.gitter.im/argmin-rs/community.png)](https://gitter.im/argmin-rs/community)
 
+# DEPRECATED
+
+The code of this crate was moved into [argmin](https://github.com/argmin-rs/argmin).
+
 # argmin-core: argmin optimization toolbox core
 
 This crate contains the core functionality of [argmin](http://argmin-rs.org).
